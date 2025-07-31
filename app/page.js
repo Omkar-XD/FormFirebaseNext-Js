@@ -1,6 +1,6 @@
-'use client'
-import { db } from './firebaseconfig'
-import { collection, addDoc } from 'firebase/firestore'
+'use client';
+import { db } from '../firebaseConfig'; 
+import { collection, addDoc } from 'firebase/firestore';
 import React, { useState, useEffect } from 'react';
 
 async function addDataToFireStore(name, email, message) {
